@@ -79,7 +79,7 @@ app:
   # instance or by providing the name and type of the service instance. The
   # preferred way is to provide the crn value as the service instance names
   # can change and might not be unique.
-  #services:
-  #- crn: crn:v1:bluemix:public:dashdb-for-transactions:us-east:a/123:456::
-  #- name: "my Db2 instance"
+  services:
+  # - crn: crn:v1:bluemix:public:dashdb-for-transactions:us-east:a/123:456::
+  - servicename: com.amazonaws.vpce.us-east-1.vpce-svc-09901713ab317ecfa
   #  type: db2
