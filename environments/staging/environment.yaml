@@ -6,15 +6,15 @@ app:
   # Set the build version ID to deploy for the "Build, deploy, and run" 
   # scenario. If the value is set to an empty string ("") the application
   # is not deployed.
-  # version: ""
+  version: ""
   
   # Set the Maven coordinates of the Maven artifact to deploy for the 
   # "Deploy, and run" scenario.
-  maven:
-   groupId: arturdzm
-   artifactId: net-test
-   version: 1.0
-   type: war
+  # maven:
+  #  groupId: arturdzm
+  #  artifactId: net-test
+  #  version: 1.0
+  #  type: war
 
   # Set minimum and maximum number of instances of the application. 
   # If the minimum and maximum values are different, the service scales the
@@ -79,8 +79,8 @@ app:
   # instance or by providing the name and type of the service instance. The
   # preferred way is to provide the crn value as the service instance names 
   # can change and might not be unique.
-  services:
-  # - crn: crn:v1:bluemix:public:dashdb-for-transactions:us-east:a/123:456::
-  - servicename: com.amazonaws.vpce.us-east-1.vpce-svc-09901713ab317ecfa
+  # services:
+  # # - crn: crn:v1:bluemix:public:dashdb-for-transactions:us-east:a/123:456::
+  # - servicename: com.amazonaws.vpce.us-east-1.vpce-svc-09901713ab317ecfa
   
   #  type: db2
